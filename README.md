@@ -23,6 +23,7 @@ By leveraging **Meta Prophet** for additive regression modeling and **Plotly** f
 **🎛️ Data Manipulation & Quality Control:** pandas, numpy
 **🔮 Predictive Engine:** prophet (Meta)
 **📊 Interactive Visualizations:** plotly (Graph Objects & Express)
+
 **🧪 Model Evaluation:** scikit-learn
 
 ## 🔄 Pipeline Workflow
