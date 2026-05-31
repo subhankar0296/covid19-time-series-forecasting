@@ -40,7 +40,7 @@ Features are mapped to match structural expectations required by the forecasting
 Unlike basic classification models that use confusion matrices, this continuous time-series regression pipeline undergoes optimization validation using regression metrics:
 ```
 Metric                                📝 Analytical Value
-Mean Absolute Error (MAE)	            Quantifies average case trajectory deviations.
+Mean Absolute Error (MAE)	           Quantifies average case trajectory deviations.
 Root Mean Squared Error (RMSE)	       Highlights variance and penalizes large outlier errors.
 Mean Absolute Pct Error (MAPE)	       Provides a normalized percentage error scale for operational reliability.
 ```
