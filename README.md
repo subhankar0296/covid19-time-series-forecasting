@@ -44,25 +44,25 @@ Mean Absolute Error (MAE)	           Quantifies average case trajectory deviatio
 Root Mean Squared Error (RMSE)	       Highlights variance and penalizes large outlier errors.
 Mean Absolute Pct Error (MAPE)	       Provides a normalized percentage error scale for operational reliability.
 ```
-**4. 🗺️ Component Analysis (Feature Importance Equivalent)**
+### 4. 🗺️ Component Analysis (Feature Importance Equivalent)
 Instead of relying on standard classification feature ranking metrics, the predictive model’s insights are extracted by breaking down the time series into independent components:
-- 📈 Macro-Trend Continuum: Tracks long-term distribution velocity across the overarching timeline.
-- 📅 Weekly Seasonality Effects: Maps statistical anomalies and case acceleration tracking specific days of the week.
+* **📈 Macro-Trend Continuum:** Tracks long-term distribution velocity across the overarching timeline, allowing infrastructure managers to estimate systemic demand burdens before they occur.
+* **📅 Weekly Seasonality Effects:** Maps case acceleration specific to days of the week, acting as an operational indicator of systemic reporting backlogs rather than actual biological shifts, which helps administrative heads dynamically scale workforce shifts.
 
 ## 📌 Operational Insights & Actionable Business Takeaways
-**📈 Executive Analytical Summary**
+### 📈 Executive Analytical Summary
 By transitioning historical descriptive data into an automated predictive model, this pipeline transforms static observations into forward-looking operational readiness metrics. The model outlines a definitive upward trajectory over the 30-day forecast horizon, bounded safely by a 95% statistical confidence interval.
 
 ## 🔍 Key Operational Insights & Business Use-Cases
-**1. 🚀 Velocity & Scale Tracking (Capacity Planning)**
+* **1. 🚀 Velocity & Scale Tracking (Capacity Planning)**
 - The Insight: The forecasting engine projects a continuous, steady macro-growth trajectory over the upcoming 30 days.
 - Business Application: For healthcare infrastructure managers, public health boards, or medical supply chains, this quantitative projection serves as an early-warning baseline tool to estimate systemic demand burdens and allocate physical assets before shortages occur.
 
-**2. 📅 Weekly Seasonality Anomalies (Workforce Optimization)**
+* **2. 📅 Weekly Seasonality Anomalies (Workforce Optimization)**
 - The Insight: By isolating independent temporal variables through model component decomposition, a distinct weekly fluctuation pattern is revealed. Case metrics exhibit consistent localized acceleration midweek (typically peaking on Wednesdays and Thursdays), balanced by sharp drops over weekends.
 - Business Application: This acts as an operational indicator of systemic reporting backlogs and weekend administrative lags rather than actual biological shifts. Resource planners, test-center managers, and hospital administrative heads can utilize this cyclical rhythm to dynamically scale staffing shifts and buffer inventory right before high-velocity tracking days.
 
-**3. 🛡️ Risk Mitigation via Uncertainty Horizons (Stress Testing)**
+* **3. 🛡️ Risk Mitigation via Uncertainty Horizons (Stress Testing)**
 - The Insight: The integration of shaded upper (yhat_upper) and lower (yhat_lower) variance boundaries provides an automated stress-testing framework.
 - Business Application: Executive leadership should avoid planning operations solely around the average midpoint estimation (yhat). Instead, risk mitigation strategies (such as ICU bed reserves and emergency logistics budgeting) should be benchmarked against the Upper Boundary Limit to guarantee 95% operational resilience under worst-case surge conditions.
 
