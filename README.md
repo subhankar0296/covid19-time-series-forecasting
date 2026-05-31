@@ -28,8 +28,7 @@ By leveraging **Meta Prophet** for additive regression modeling and **Plotly** f
 ## 🔄 Pipeline Workflow
 **1. ⚙️ Data Processing & Structural Invariant Control**
 Granular daily global arrays are checked for chronological sorted order, structural null variables are evaluated, and columns are explicitly aggregated programmatically via a global system macro-trend layout using:
-```df_global = df_raw.groupby('Date')[['Confirmed', 'Deaths', 'Recovered', 'Active']].sum().reset_index()
-```
+df_global = df_raw.groupby('Date')[['Confirmed', 'Deaths', 'Recovered', 'Active']].sum().reset_index()
 **2. 🔀 Time-Series Structural Alignment**
 Features are mapped to match structural expectations required by the forecasting engine architecture:
 - ds: Chronological temporal datetime tracking vector.
