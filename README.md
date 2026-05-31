@@ -74,7 +74,9 @@ To further elevate the commercial viability and analytical depth of this data as
 
 ## 🏃‍♂️ How To Run and Reproduce
 - Clone this repository to your local directory:
-git clone [https://github.com/YOUR_USERNAME/covid19-time-series-forecasting.git](https://github.com/YOUR_USERNAME/covid19-time-series-forecasting.git)
+```
+git clone https://github.com/subhankar0296/covid19-time-series-forecasting.git
+```
 - Ensure you have the file ```covid_19_forecasting.csv``` placed inside the root directory alongside the notebook.
 - Install the required enterprise dependency frameworks:
 pip install pandas numpy prophet plotly scikit-learn
