@@ -20,11 +20,10 @@ By leveraging **Meta Prophet** for additive regression modeling and **Plotly** f
 └── README.md                                  # Project documentation and performance report
 ```
 ## 💻 Technical Stack & Dependencies
-**🎛️ Data Manipulation & Quality Control:** pandas, numpy
-**🔮 Predictive Engine:** prophet (Meta)
-**📊 Interactive Visualizations:** plotly (Graph Objects & Express)
-
-**🧪 Model Evaluation:** scikit-learn
+* **🎛️ Data Manipulation & Quality Control:** pandas, numpy
+* **🔮 Predictive Engine:** prophet (Meta)
+* **📊 Interactive Visualizations:** plotly (Graph Objects & Express)
+* **🧪 Model Evaluation:** scikit-learn
 
 ## 🔄 Pipeline Workflow
 **1. ⚙️ Data Processing & Structural Invariant Control**
